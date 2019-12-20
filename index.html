@@ -44,7 +44,8 @@
             .logo {
                 max-width: 90%;
             }
-            .container { 
+
+            .container {
                 justify-content: normal;
             }
         }
@@ -58,6 +59,31 @@
 
         h3 img {
             margin-right: 10px;
+        }
+
+        .btn__booking {
+            padding-top: 10px;
+            padding-bottom: 10px;
+            padding-left: 20px;
+            padding-right: 20px;
+            border: 3px solid #16abba;
+            color: #16abba;
+            background: transparent;
+            font-size: 20px;
+            letter-spacing: 1px;
+            margin-top: 10px;
+            margin-bottom: 10px;
+            transition: all 1s ease;
+        }
+
+        .btn__booking:hover {
+
+            background: rgba(0, 0, 0, .2);
+            cursor: pointer;
+        }
+        .detail h3 { 
+            margin-top: 0;
+            margin-bottom: 8px;
         }
     </style>
 </head>
@@ -73,16 +99,23 @@
                 Website is Under Construction
             </p>
             <h1
-                style=" color: white; letter-spacing: 2px; text-align:center; margin-bottom: 0; font-size: 40px; margin-top: 0;">
+                style=" color: white; letter-spacing: 2px; text-align:center; margin-bottom: 0; font-size: 35px; margin-top: 0;">
                 Grand Opening Special
             </h1>
             <h3
-                style="margin-top: 0;  color: #16abba; text-align: center; display: flex; justify-content: center; font-size: 60px; letter-spacing: 1px; margin-bottom: 20px; font-weight: bold;">
+                style="margin-top: 0;  color: #16abba; text-align: center; display: flex; justify-content: center; font-size: 55px; letter-spacing: 1px; margin-bottom: 20px; font-weight: bold;">
                 Saturday, February 1, 2020
             </h3>
-            <p style="text-align: center; color: white; font-size: 35px; font-weight: 300; margin-top: 20px; line-height: 1.5; margin-bottom: 0;">
-                1st Visit <b>Free 15 Min. </b>Massage OR Get<b> $20 OFF</b> Any Services. <br /> <span style="font-size: 25px;">(Must Be Show ID or Identity Card)</span>
+            <p
+                style="text-align: center; color: white; font-size: 35px; font-weight: 300; margin-top: 20px; line-height: 1.5; margin-bottom: 0;">
+                1st Visit <b>Free 15 Min. </b>Massage OR Get<b> $20 OFF</b> Any Services. <br /> <span
+                    style="font-size: 25px;">(Must Be Show ID or Identity Card)</span>
             </p>
+
+            <button class="btn__booking">
+                BOOK ONLINE
+            </button>
+            <div class="detail">
             <h3>
                 <img src="./icon-03.png" alt="" width="35px" /> 408-320-1111
             </h3>
@@ -94,6 +127,8 @@
                 on <a href="https://goo.gl/maps/FoQnshq3kdax7T6b7" target="_blank"
                     style="color: white; font-weight: bold; margin-left: 8px;"> Google Map</a>
             </h3>
+            </div>
+
         </div>
     </div>
 
